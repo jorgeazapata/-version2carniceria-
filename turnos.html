@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>SELECCIÓN DE TURNOS</title>
+	<link href="css/main.css" rel="stylesheet" />
+</head>
+<body>
+	<h2>¡BIENVIDO AL SISTEMA DE ASIGNACION DE TURNOS DE LA CARNICERIA SURTIMAX FREDONIA!</h2>
+	<h3>Aquí puedes elegir en que horario deseas ser atendido en nuestra sección de carniceria y asi tendrás beneficios* como prioridad sobre quienes están haciendo fila y despacho del pedido hasta tu hogar.</h3>
+	<h4>Turnos disponibles:</h4>
+	<div id="ventana" class="ligthbox hidden">
+		<div class="login_content">
+			<div id="cerrar" class="close_button">x</div>
+			<input type="text" id="input_name" placeholder="Nombre">
+			<input type="button" id="button_login" value="Reservar" onclick="reservar();" >			
+		</div>
+	</div>
+	<div id="cuadricula">
+			<div id="puesto_1" class="disponible">
+				<h3>9:00 am</h3>
+				<input type="button" value="Reserva" onclick="crearReserva(1)">
+			</div>
+			<div id="puesto_2" class="disponible">
+				<h3>10:00 am</h3>
+				<input type="button" value="Reserva" onclick="crearReserva(2)">
+			</div>
+			<div id="puesto_3" class="disponible">
+				<h3>11:00 am</h3>
+				<input type="button" value="Reserva" onclick="crearReserva(3)">
+			</div>
+			<div id="puesto_4" class="disponible">
+				<h3>12:00 am</h3>
+				<input type="button" value="Reserva" onclick="crearReserva(4)">
+			</div>
+			<div id="puesto_5" class="disponible">
+				<h3>1:00 pm</h3>
+				<input type="button" value="Reserva" onclick="crearReserva(5)">
+			</div>
+			<div id="puesto_6" class="disponible">
+				<h3>2:00 pm</h3>
+				<input type="button" value="Reserva" onclick="crearReserva(6)">
+			</div>
+			<div id="puesto_7" class="disponible">
+				<h3>3:00 pm</h3>
+				<input type="button" value="Reserva" onclick="crearReserva(7)">
+			</div>
+			<div id="puesto_" class="disponible">
+				<h3>4:00 pm</h3>
+				<input type="button" value="Reserva" onclick="crearReserva(8)">
+			</div>
+			<div id="puesto_9" class="disponible">
+				<h3>5:00 pm</h3>
+				<input type="button" value="Reserva" onclick="crearReserva(9)">
+			</div>
+		</div>
+		<a href="registro.html">Salir</a>
+</body>
+</html>
